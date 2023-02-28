@@ -1,0 +1,68 @@
+html {
+  background: url('../assets/login.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 90vh;
+}
+
+.login-page{
+  position: relative;
+  margin: auto;
+  backdrop-filter: blur(10px);
+  border-radius: 3rem;
+  width: 350px;
+  padding: 3rem 3rem 3rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(70%);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.form{
+  padding-top: 20px;
+ 
+}
+
+.form button {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 20px;
+}
+
+#TBName{
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  background: transparent;
+  color: black;
+  border:none;
+  border-bottom: 1px solid black;
+  outline: none;
+  
+}
+
+#TBName::placeholder{
+  color: black;
+  border: none;
+  outline: none;
+
+}
+
+
+
+
+
