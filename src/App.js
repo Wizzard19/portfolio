@@ -1,10 +1,13 @@
-import './App.css'
-import Login from './Pages/Login';
+import { BrowserRouter } from 'react-router-dom';
+import './App.css';
+import Public from './Routes/Public';
 
 function App() {
   return (
     <div className='App'>
-      <Login />
+      <BrowserRouter>
+        <Public />
+      </BrowserRouter>
     </div>
   );
 }
